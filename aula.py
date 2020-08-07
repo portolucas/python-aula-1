@@ -59,17 +59,18 @@ class Cachorro:
     def __init__(self, name):
         self.name = name
 
+
 cao = Cachorro('Nina')
 print(cao.name)
 
-## Python Set
+# Python Set
 
-## Set é uma coleção não ordenada e não indexada.
+# Set é uma coleção não ordenada e não indexada.
 
 thisset = {"Apple", "Banana", "Cherry"}
 print(thisset)
 
-## Uma tupla é uma coleção ordenada e imutável
+# Uma tupla é uma coleção ordenada e imutável
 thistuple = ("Apple", "Banana", "Cherry")
 print(thistuple)
 
