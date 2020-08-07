@@ -25,6 +25,7 @@ pilha.pop()
 Implementando uma pilha como estrutura encadeada. A pilha possui um topo
 e cada elemento faz referência ao elemento anterior.
 """
+
 class Nodo:
     """Esta classe representa um nodo de uma estrutura encadeada."""
 
