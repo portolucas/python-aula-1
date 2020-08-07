@@ -25,8 +25,6 @@ pilha.pop()
 Implementando uma pilha como estrutura encadeada. A pilha possui um topo
 e cada elemento faz referência ao elemento anterior.
 """
-
-
 class Nodo:
     """Esta classe representa um nodo de uma estrutura encadeada."""
 
@@ -36,7 +34,6 @@ class Nodo:
 
     def __repr__(self):
         return '%s -> %s' % (self.dado, self.anterior)
-
 
 class Pilha:
     """Esta classe representa uma pilha usando uma estrutura encadeada."""
@@ -66,7 +63,6 @@ class Pilha:
 
         self.topo = self.topo.anterior
 
-
 # Cria uma pilha vazia
 pilha = Pilha()
 #print(f'Pilha vazia" {pilha}')
@@ -79,7 +75,6 @@ for i in range(5):
 while pilha.topo != None:
     pilha.remove()
     #print("Removendo elemento que está no topo da pilha: ", pilha)
-
 
 """
 Filas são estruturas de dados em que só é possível inserir
@@ -110,7 +105,6 @@ Eses ponteiros permitem inserções e remoções com custo constante.
 https://algoritmosempython.com.br/cursos/algoritmos-python/estruturas-dados/filas
 """
 
-
 class Nodo:
     """Esta classe representa um nodo de uma estrutura duplamente encadeada."""
 
@@ -120,7 +114,6 @@ class Nodo:
 
     def __repr__(self):
         return '%s -> %s' % (self.dado, self.proximo)
-
 
 class Fila:
     """Esta classe representa uma fila usando uma estrutura encadeada."""
@@ -158,7 +151,6 @@ class Fila:
 
         if(self.primeiro) == None:
             self.ultimo = None
-
 
 fila = Fila()
 #print("Fila vazia: ", fila)
